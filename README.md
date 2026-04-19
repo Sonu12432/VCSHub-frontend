@@ -1,7 +1,7 @@
 # VCSHub Frontend
 The user interface for VCSHub. Includes seamless user onboarding, a centralized repository dashboard, live search filtering, and interactive tracking.
 
-**🚀 [Click here to view the live application!]([https://main.your-amplify-app-id.amplifyapp.com](https://main.d3ueof3ldo922j.amplifyapp.com/))**
+**[🚀 Click here to view the live application!]([https://your-actual-aws-url-here.com](https://main.d3ueof3ldo922j.amplifyapp.com/))**
 
 *(Note: The backend may take a few seconds to spin up on initial load).*
 
