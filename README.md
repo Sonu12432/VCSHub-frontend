@@ -1,2 +1,2 @@
 # VCSHub-frontend
-The React frontend for VCSHub, a custom version control platform. Features a dynamic developer dashboard, secure JWT authentication, and interactive repository management.
+VCSHub is a custom-built version control system designed to streamline how developers manage and track their code. This repository houses the React frontend client, providing a clean, responsive interface for users to interact with their data. From secure JWT authentication to a dynamic, centralized dashboard for tracking personal and starred repositories, the VCSHub frontend is built for speed and seamless user experience.
