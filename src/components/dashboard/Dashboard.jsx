@@ -43,6 +43,10 @@ const Dashboard = () => {
       }
     };
 
+    if (!userId || userId === 'null') {
+        return; 
+    }
+
     fetchRepositories();
     fetchStarredRepos();
   }, []);
