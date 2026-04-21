@@ -45,7 +45,7 @@ const Login = () => {
       <div className="w-full max-w-md space-y-6">
         {/* Logo and Header */}
         <div className="flex flex-col items-center">
-          <img className="h-30 w-30" src={logo} alt="GitHub Logo" />
+          <img className="h-30 w-30" src={logo} alt="VCSHub Logo" />
           <h2 className="text-center text-3xl font-bold tracking-tight text-white">
             Sign In to VCSHub
           </h2>
