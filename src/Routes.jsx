@@ -19,16 +19,16 @@ const ProjectRoutes = ()=>{
     useEffect(()=>{
         const userIdFromStorage = localStorage.getItem("userId");
 
-        if(userIdFromStorage && !currentUser){
+        if(userIdFromStorage && userIdFromStorage !== "null" && !currentUser){
             setCurrentUser(userIdFromStorage);
         }
 
-        if(!userIdFromStorage && !["/auth", "/signup"].includes(window.location.pathname))
+        if((!userIdFromStorage || userIdFromStorage === "null") && !["/auth", "/signup"].includes(window.location.pathname))
         {
             navigate("/auth");
         }
 
-        if(userIdFromStorage && window.location.pathname=='/auth'){
+        if(userIdFromStorage && userIdFromStorage !== "null" && window.location.pathname=='/auth'){
             navigate("/");
         }
     }, [currentUser, navigate, setCurrentUser]);
