@@ -59,7 +59,7 @@ const CreateRepo = () => {
       const token = localStorage.getItem("token");
 
       // Making the Axios POST request to the Express backend
-      const res = await axios.post("${apiUrl}/repo/create", schemaPayload, {
+      const res = await axios.post(`${apiUrl}/repo/create`, schemaPayload, {
         headers: {
           "Authorization": `Bearer ${token}` 
         }
